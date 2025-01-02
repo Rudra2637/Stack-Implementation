@@ -27,17 +27,18 @@ class stack{
          top--;
       }
    }
-   bool checkempty(){
+   void checkempty(){
       if(top==-1){
          cout<<"stack is empty"<<endl;
       }
       else{
          cout<<"stack is not empty"<<endl;
       }
+      
    }
    void print(){
  
-         cout<<arr[top]<<endl;
+      cout<<arr[top]<<endl;
       
    }
 };
