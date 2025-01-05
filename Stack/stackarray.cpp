@@ -53,10 +53,7 @@ int main(){
   s.print();
   s.push(11);
   s.print();
- // s.print();
-  //s.pop();
-  //s.pop();
-  //s.checkempty();
+ 
 
 
 
